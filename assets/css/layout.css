@@ -5,7 +5,15 @@
 	overflow: hidden;
  }
 
+.welcome {
+	background-color: rgb(242, 242, 242);
+}
+
 /*row--color*/
+
+.row--lightgrey {
+	background-color: rgba(242, 242, 242, 0.5);
+}
 
 .row--white { 
 	background-color: rgb(255, 255, 255); 

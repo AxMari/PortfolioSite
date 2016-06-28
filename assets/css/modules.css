@@ -3,12 +3,16 @@
 	height: 300px;
 	width: 300px;
 	border-radius:50%; 
-	margin: 115px auto 0;
+	margin: 115px auto 0 ;
 	transition: all 0.5s;
+	display: block;
+	position: relative;
+	z-index: 2;
 }
 
 #circle:hover {
-	transform: scale(1.05,1.05);
+	transform: scale(1.05,1.05) ;
+	transform: url(../img/test.png);
 	opacity: 0.5;
 }
 
@@ -16,6 +20,20 @@
 	font-size: 5em;
 	text-align: center;
 	color: rgb(0,102,204);
-	margin-top: 0.25em;
+	margin-top: 0.35em;
+	margin-bottom: 1.5em;
 }
 
+#hello {
+	background-image: url(../img/test.png);
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 27%;
+	left: 50%;
+	margin-left: -100px;
+
+	
+
+	
+}
