@@ -36,11 +36,11 @@
 /*landpage*/
 
 .skills {
-	background-image: url(../img/backgroundbio.png);
+	background-image:
 }
 
 .portfolio {
-	background-image: url(../img/backgroundport.png);
+	background-image:
 }
 
 .bio {
@@ -53,6 +53,10 @@
 
 .landing{
 	height: 25%;
+}
+
+.landing > a {
+	text-decoration: none;
 }
 
 .landing__title {
@@ -68,6 +72,7 @@
 
 .landing__title--right {
 	float:right;
+	color: rgb(0,102,204);
 }
 .landing__title:hover {
 	font-size: 5.5em;
