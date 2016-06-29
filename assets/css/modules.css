@@ -12,7 +12,6 @@
 
 #circle:hover {
 	transform: scale(1.05,1.05) ;
-	transform: url(../img/test.png);
 	opacity: 0.5;
 }
 
@@ -32,8 +31,53 @@
 	top: 27%;
 	left: 50%;
 	margin-left: -100px;
+}
 
-	
+/*landpage*/
 
-	
+.skills {
+	background-image: url(../img/backgroundbio.png);
+}
+
+.portfolio {
+	background-image: url(../img/backgroundport.png);
+}
+
+.bio {
+	background-image: 
+}
+
+.contact {
+	background-image: 
+}
+
+.landing{
+	height: 25%;
+}
+
+.landing__title {
+	height:100%;
+	line-height: 145px;
+	width: 100%;
+	font-size: 5em;
+	text-align: center;
+	padding: auto;
+	opacity: 0.9;
+	transition: all .25s;
+}
+
+.landing__title--right {
+	float:right;
+}
+.landing__title:hover {
+	font-size: 5.5em;
+	opacity: 1.0;
+}
+
+/*---wide screen---*/
+
+@media (min-width: 38em){
+	.landing__title {
+		max-width: 800px;
+	}
 }

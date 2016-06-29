@@ -1,67 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<link rel="stylesheet" type="text/css" href="assets/css/base.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/modules.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-<!-- 	<script type="text/javascript" src="assets/js/jquery.particleground.min.js"></script> -->
-	<script type="text/javascript" src="assets/js/script.js"></script>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/base.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/modules.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<script data-require="angular.js@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular-route.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/controllers/controller.js"></script>
 	<title>AxMari</title>
 </head>
-<body>
+<body ng-app="portfolioModule">
 
-<section class="banner row row--lightgrey">
-	<div class="container-wide">
-	 <a href="http://www.google.com/" id="circle"></a>
-	 <div id="hello"></div>
-	 <h1 id="intro-name">ALEXIS MARIEN<h1>
-	</div>
-<!-- circle logo name -->	
-</section>
-<section class="row row--orange">
-	<nav>
-	 <a href="#">test1</a>
-	 <a href="#">test2</a>
-	 <a href="#">test3</a>
-	 <a href="#">test4</a>
-	</nav>
-
-</section>
-<section class="row row--orange">
-
-
-hllo hi
-</section>
-
-<section class="row row--blue">
-
-
-I know many a thing
-so many
-like 10
-</section>
-<section class="row row--white">
-
-walk into the club like what up 
-</section>
-<section class="row row--blue">
-
-Call me, Maybe
-</section>
-<section class="row row--orange">
-	<nav>
-	 <a href="#">test1</a>
-	 <a href="#">test2</a>
-	 <a href="#">test3</a>
-	 <a href="#">test4</a>
-	</nav>
-
-</section>
-
+<ng-view></ng-view>
 
 </body>
 </html>
