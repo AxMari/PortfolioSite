@@ -1,10 +1,15 @@
 /*greetings*/
+.banner {
+	background: cover;
+	height: 100%;
+	width: 100%;
+}
 
-#circle {
+#wifi {
 	background-image: url(../img/test.png);
 	height: 300px;
 	width: 300px;
-	margin: 115px auto 0;	
+	margin: 10% auto 0%;	
 	display: block;
 	position: relative;
 }
@@ -17,7 +22,7 @@
 	margin-bottom: 1.5em;
 }
 
-#hello {
+#circle {
 	border-radius:50%; 
 	background-color: rgb(0,102,204);
 	width: 300px;
@@ -26,7 +31,7 @@
 	transition: all 0.5s;
 }
 
-#hello:hover {
+#circle:hover {
 	transform: scale(1.05,1.05);
 	opacity: 0.5;
 }
@@ -78,11 +83,67 @@
 	opacity: 1.0;
 }
 
+/*base*/
+
+.header {
+	height: 20%;
+}
+
+.nav {
+	height: 1.5em;
+}
+
+.nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-bar > li {
+	display: inline;
+}
+
+.nav-bar > li > a {
+	max-width: 10em;
+	color: rgb(64,64,64);
+	text-decoration: none;
+	padding: 0.5em;
+}
+
+.nav-bar > li > a:hover {
+	color: rgb(252,112,112);
+	background-color: rgb(242, 242, 242);
+}
+
+.nav-bar > li > a:active {
+	color: rgb(242, 242, 242);
+}
+
+.body {
+	min-height: 66%;
+} 
+
+.footer {
+	min-height: 10%;
+}
+
 /*skills*/
 
 /*previousworks*/
 
 /*bio*/
+#bioimage {
+	display: block;
+	width: 75%;
+	max-width: 30em;
+	margin: auto;
+	padding: 5%;
+}
+
+#biosumm {
+	padding: 0 8% 10% 8%;
+}
 
 /*contact*/
 

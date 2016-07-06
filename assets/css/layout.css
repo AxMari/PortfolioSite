@@ -1,5 +1,4 @@
 /*row*/
-
 .row { 
 	clear: both;
 	overflow: hidden;
@@ -8,11 +7,15 @@
 .welcome {
 	background-color: rgb(242, 242, 242);
 }
-
 /*row--color*/
 
 .row--lightgrey {
 	background-color: rgb(248, 248, 248);
+}
+
+.row--darkgrey {
+	background-color: rgb(64,64,64);
+	color: rgb(248, 248, 248);
 }
 
 .row--white { 
@@ -28,21 +31,29 @@
 }
 /*row-padding*/
 
+.row--padding-medium {
+	padding-top: 2.1875em;
+	padding-bottom: 2.1875em;
+}
 
+.row--padding-wide {
+	padding-top: 2.1875em;
+	padding-bottom: 2.1875em;
+}
 
 /*containers*/
 
 .container-narrow,
 .container-medium,
 .container-wide {
-	margin: auto;
-	padding: 0em 1.5em;
+	margin: 0 auto;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 .container-narrow {
 	max-width: 34em;
 }
-
 
 .container-medium {
 	max-width: 52em;
@@ -53,17 +64,25 @@
 }
 
 /*columns*/
-.col-narrow{}
-.col-narrow--right {}
-.col-medium{}
-.col-wide {}
-.col-wide--right {
+.col-narrow,
+.col-narrow--right {
 	margin-bottom: 1.5em;
 }
 
-
 /*-------------wide screen------------*/
 @media (min-width: 38em) {
+	/*rows*/
+	.row--padding-medium {
+	padding-top: 3.8889em;
+	padding-bottom: 3.889em;
+	}
+
+	.row--padding-wide {
+	padding-top: 5.5556em;
+	padding-bottom: 5.5556em;
+	}
+
+	/*containers*/
 	.container-narrow,
 	.container-medium,
 	.container-wide {
@@ -71,7 +90,7 @@
 		padding-right: 2em;
 	}
 
-
+	/*columns*/
 	.col-narrow,
 	.col-medium,
 	.col-wide { 
@@ -97,6 +116,7 @@
 		width: 25%;
 		margin-bottom: 0;
 	}
+
 }
 
 /*-------------mobile-------------*/
